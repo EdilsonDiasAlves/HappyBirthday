@@ -78,7 +78,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
         GreetingText(
             message = message,
             from = from,
-            modifier = Modifier
+            modifier = modifier
                 .fillMaxSize()
                 .padding(4.dp)
         )
